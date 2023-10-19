@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  <display-name>Blogame</display-name>
+  <description>Jeu de blog !</description>
+
+  <servlet>
+    <servlet-name>compteServlet</servlet-name>
+    <servlet-class>CompteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>compteServlet</servlet-name>
+    <url-pattern>/Servlet/CompteServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>antiCheatServlet</servlet-name>
+    <servlet-class>AntiCheatServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>antiCheatServlet</servlet-name>
+    <url-pattern>/Servlet/AntiCheatServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>messages</servlet-name>
+    <servlet-class>Messages</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>messages</servlet-name>
+    <url-pattern>/Messages</url-pattern>
+  </servlet-mapping>
+</web-app>
