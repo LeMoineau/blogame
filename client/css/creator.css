@@ -1,0 +1,125 @@
+/**
+ @author Yohann Chenu & William Mok
+*/
+
+
+#input-map-name {
+  position: fixed;
+  top: 10px;
+  left: 50vw;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#input-map-name {
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 0.3rem;
+  transition-duration: 0.7s;
+}
+
+#input-map-name {
+  border-image-source: linear-gradient(
+    rgba(0, 51, 102, 0.5),
+    rgba(0, 0, 51, 0.5)
+  );
+  border-width: 5pt;
+  border-image-slice: 1;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  min-width: 200px;
+  width: 30vw;
+  overflow: auto;
+  font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#nav-creator {
+  background-color: var(--nav-creator-color);
+}
+
+#nav-material-chooser {
+  background-color: var(--nav-material-chooser-color);
+}
+
+#material-chooser-canvas {
+  width: initial;
+  height: initial;
+}
+
+.nav-info-block {
+  margin: 10px;
+  padding: 0 10px 10px 10px;
+  border: 1px solid black;
+  border-radius: 1%;
+}
+
+.nav-info-block-title {
+  text-align: center;
+  color: rgb(66, 66, 66);
+}
+
+.nav-info-block-line {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  width: 96.5%;
+  margin: 10px 0;
+  border-style: double;
+  padding: 2px 2px 2px 10px;
+  background-color: yellowgreen;
+}
+
+.nav-info-block-button-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+}
+
+nav > button,
+.nav-info-block-button-bar > button {
+  margin: 20px 10px;
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: 0.75rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 0.75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6b7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: 0.2s;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.nav-info-block-button-bar > button {
+  margin: 0 5px;
+}
+
+nav > button:hover {
+  background-color: #374151;
+}
+
+nav > button:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}

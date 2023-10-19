@@ -1,0 +1,19 @@
+/**
+ @author Pierre Faber
+*/
+
+
+body {
+
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+}
+
+:root {
+
+  --nav-creator-color: rgba(52, 152, 219, .9);
+  --nav-material-chooser-color: rgba(230, 126, 34, .9);
+
+}

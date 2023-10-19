@@ -1,0 +1,81 @@
+/* 
+@author Yohann Chenu
+ */
+
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+.main{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+h1{
+    font-size:50pt;
+    font-family: 'Games', sans-serif;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: 5px;
+}
+
+p{
+    font-weight: bold;
+    color: red;
+    margin:inherit;
+}
+
+.main > form {
+    width: 30vw;
+    height: 90vh;
+    text-align: center;
+    border: 2px solid black;
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 20px;
+    justify-content: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.main > form > legend{
+    margin: 5px 5px;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.main > form > button{
+    margin: 10px 0;
+    border-radius: 10px;
+    opacity: 0.7;
+    background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-size: 12pt;
+}
+
+.main > form > button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+.main > form > input{
+    margin: 5px 0;
+    background-color: lightgray;
+    border-radius: 10px;
+    border : none;
+    padding-left: 0.5vw;
+    height: inherit;
+    height: 5vh;
+    font-size: 12pt;
+}
